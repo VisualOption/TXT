@@ -1,1 +1,20 @@
+Bug_id: 900
+Title: Widgets created through "desktop settings" are similar, but display different information
 
+Severity: trivial
+Priority: low
+
+Environment: 1) Samsung galaxy S20(SM-G980F/DS), Android 12(One UI 4.1), firmware v.G980FXXUEFVDB
+
+Precondition: Install the app "AndroidGridTest" on your phone
+STR: Need to create several different widgets on the desktop
+1.	Touch and hold your finger on the "desktop" (Longtap)
+2.	Select the "Widgets" section
+3.	From the list of installed programs, select "AndroidGridTest"
+4.	From the list of widgets in this section, select any and click "add"
+5.	Repeat the procedure, create several different widgets
+6.	Stretch the created widgets by length and width
+
+AR: Some stretched widgets show 4 cryptocurrencies, others 5 cryptocurrencies
+
+ER: All widgets show the same number of cryptocurrencies
